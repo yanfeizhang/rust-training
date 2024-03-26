@@ -9,6 +9,7 @@
   - [变量可变性与隐藏](2-memory/variable/index.md)
   - [整型、浮点、字符串](2-memory/variable/scalar.md)
   - [数组、元组](2-memory/variable/compound.md)
+  - [结构体](2-memory/struct/index.md)
 - 所有权
   -  [所有权移动、借用、部分借用](2-memory/ownership/index.md)
   -  [克隆](2-memory/ownership/clone.md)
