@@ -20,6 +20,8 @@
   - [vector](2-memory/collection/vector.md)
   - [string](2-memory/collection/string.md)
   - [哈希表](2-memory/collection/hashmap.md)
+- 智能指针
+  -  [指向堆上的数据](2-memory/smart-pointer/reference.md)
   
 ### 执行流
 - 基础执行流
@@ -33,3 +35,10 @@
 - 泛型与trait
   - [trait](3-execution/generic/trait.md)
   - [泛型](3-execution/generic/generic.md)
+- 闭包
+  - [闭包](3-execution/closure/index.md)
+- 迭代器
+  - [实现自定义迭代器](3-execution/iterator/index.md)
+- 并发编程
+  - [创建线程传递数据并等待](3-execution/thread/demo.md)
+  - [使用多线程实现生产者与消费者](3-execution/thread/consumer.md)
