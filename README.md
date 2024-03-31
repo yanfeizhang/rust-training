@@ -42,3 +42,8 @@
 - 并发编程
   - [创建线程传递数据并等待](3-execution/thread/demo.md)
   - [使用多线程实现生产者与消费者](3-execution/thread/consumer.md)
+  - [多线程之间访问共享变量](3-execution/thread/mutex.md)
+
+### 网络编程
+- [单线程简单HTTP服务器](4-network/basic/simple-http-server.md)
+- [基于线程池的HTTP服务器](4-network/basic/multi-thread-server.md)
