@@ -31,7 +31,7 @@
   - [if let](3-execution/if-let/index.md)
 - 包和crate
   - [使用外部crate的简单例子](3-execution/crate/demo.md)
-  - [使用lib.rs中定义的函数的例子](3-execution/crate/lib.rs.md)
+  - [使用lib.rs中定义的函数的例子](3-execution/crate/lib-rs.md)
 - 泛型与trait
   - [trait](3-execution/generic/trait.md)
   - [泛型](3-execution/generic/generic.md)
@@ -43,6 +43,8 @@
   - [创建线程传递数据并等待](3-execution/thread/demo.md)
   - [使用多线程实现生产者与消费者](3-execution/thread/consumer.md)
   - [多线程之间访问共享变量](3-execution/thread/mutex.md)
+- 异步编程
+  -  [使用async/await实现异步](3-execution/async/async.md)
 
 ### 网络编程
 - [单线程简单HTTP服务器](4-network/basic/simple-http-server.md)
