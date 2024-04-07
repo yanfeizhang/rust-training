@@ -54,11 +54,12 @@
   - [固定到栈上](3-exec-async/pin/pin_to_stack.md)
   - [固定到堆上](3-exec-async/pin/pin_to_heap.md)
 - 多future同时运行
-  - join!
-  - select!
+  - [join!](3-exec-async/concurrency/join.md)
+  - [select!](3-exec-async/concurrency/select.md)
 - [多线程与异步](3-exec-async/async/multi-thread.md)
 - tokio工作原理
 
 ### 网络编程
 - [单线程简单HTTP服务器](4-network/basic/simple-http-server.md)
 - [基于线程池的HTTP服务器](4-network/basic/multi-thread-server.md)
+- [基于异步的HTTP服务器](4-network/basic/async-http-server.md)
