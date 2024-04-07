@@ -23,28 +23,34 @@
 - 智能指针
   -  [指向堆上的数据](2-memory/smart-pointer/reference.md)
   
-### 执行流
+### 同步执行流
 - 基础执行流
-  - [函数](3-execution/function/index.md)
-  - [循环](3-execution/loop/index.md)
-  - [match](3-execution/match/index.md)
-  - [if let](3-execution/if-let/index.md)
+  - [函数](3-exec-sync/function/index.md)
+  - [循环](3-exec-sync/loop/index.md)
+  - [match](3-exec-sync/match/index.md)
+  - [if let](3-exec-sync/if-let/index.md)
 - 包和crate
-  - [使用外部crate的简单例子](3-execution/crate/demo.md)
-  - [使用lib.rs中定义的函数的例子](3-execution/crate/lib-rs.md)
+  - [使用外部crate的简单例子](3-exec-sync/crate/demo.md)
+  - [使用lib.rs中定义的函数的例子](3-exec-sync/crate/lib-rs.md)
 - 泛型与trait
-  - [trait](3-execution/generic/trait.md)
-  - [泛型](3-execution/generic/generic.md)
+  - [trait](3-exec-sync/generic/trait.md)
+  - [泛型](3-exec-sync/generic/generic.md)
 - 闭包
-  - [闭包](3-execution/closure/index.md)
+  - [闭包](3-exec-sync/closure/index.md)
 - 迭代器
-  - [实现自定义迭代器](3-execution/iterator/index.md)
+  - [实现自定义迭代器](3-exec-sync/iterator/index.md)
 - 并发编程
-  - [创建线程传递数据并等待](3-execution/thread/demo.md)
-  - [使用多线程实现生产者与消费者](3-execution/thread/consumer.md)
-  - [多线程之间访问共享变量](3-execution/thread/mutex.md)
-- 异步编程
-  -  [使用async/await实现异步](3-execution/async/async.md)
+  - [创建线程传递数据并等待](3-exec-sync/thread/demo.md)
+  - [使用多线程实现生产者与消费者](3-exec-sync/thread/consumer.md)
+  - [多线程之间访问共享变量](3-exec-sync/thread/mutex.md)
+
+### 异步执行流
+- [future与executor工作原理]
+  - [future实现](3-exec-async/internal/timer.md)
+  - [excutor实现](3-exec-async/internal/executor.md)
+- [使用async/await实现异步](3-exec-async/async/async.md)
+- [多线程与异步](3-exec-async/async/multi-thread.md)
+- tokio工作原理
 
 ### 网络编程
 - [单线程简单HTTP服务器](4-network/basic/simple-http-server.md)
