@@ -49,6 +49,10 @@
   - [future实现](3-exec-async/internal/timer.md)
   - [excutor实现](3-exec-async/internal/executor.md)
 - [使用async/await实现异步](3-exec-async/async/async.md)
+- [固定](3-exec-async/pin/pin.md)
+  - [不固定的话存在的问题](3-exec-async/pin/swap_problem.md)
+  - [固定到栈上](3-exec-async/pin/pin_to_stack.md)
+  - [固定到堆上](3-exec-async/pin/pin_to_heap.md)
 - [多线程与异步](3-exec-async/async/multi-thread.md)
 - tokio工作原理
 
