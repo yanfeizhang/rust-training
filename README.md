@@ -53,6 +53,9 @@
   - [不固定的话存在的问题](3-exec-async/pin/swap_problem.md)
   - [固定到栈上](3-exec-async/pin/pin_to_stack.md)
   - [固定到堆上](3-exec-async/pin/pin_to_heap.md)
+- 多future同时运行
+  - join!
+  - select!
 - [多线程与异步](3-exec-async/async/multi-thread.md)
 - tokio工作原理
 
