@@ -43,6 +43,9 @@
   - [创建线程传递数据并等待](3-exec-sync/thread/demo.md)
   - [使用多线程实现生产者与消费者](3-exec-sync/thread/consumer.md)
   - [多线程之间访问共享变量](3-exec-sync/thread/mutex.md)
+- Rust和Go跨语言互调
+  - [Go调用Rust生成的动态链接库-入门demo](3-exec-sync/ffi/go2rust_demo/index.md)
+  - [Rust调用Go生成的动态链接库-入门demo](3-exec-sync/ffi/rust2go_demo/index.md)]
 
 ### 异步执行流
 - [future与executor工作原理]
