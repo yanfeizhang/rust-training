@@ -1,4 +1,4 @@
-使用 syn crate 可以实现对 rust 代码的解析
+使用 syn crate 可以实现对 rust 代码的解析，也可以添加自定义的 derive 宏。
 
 读取并解析rust代码
 
