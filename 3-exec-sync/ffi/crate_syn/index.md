@@ -1,14 +1,17 @@
-use quote::{format_ident};
-use syn::{Item};
+使用 syn crate 可以实现对 rust 代码的解析
 
-fn main() {
+读取并解析rust代码
+
+```rust
     let input = "./src/input.rs";
-
-    // 使用std::fs读取input.rs
     let file_content = std::fs::read_to_string(&input).expect("Unable to read file");
     let syntax = syn::parse_file(&file_content).expect("Unable to parse file");
+```
 
-    // 遍历语法树
+遍历语法树，并查看解析结果
+
+```rust
+   // 遍历语法树
     for item in syntax.items.iter() {
         match item {
             Item::Struct(s) => {
@@ -28,4 +31,4 @@ fn main() {
             _ => continue,
         }
     }
-}
+```

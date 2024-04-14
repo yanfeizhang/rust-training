@@ -46,8 +46,11 @@
 - Rust和Go跨语言互调
   - [Go调用Rust生成的动态链接库-入门demo](3-exec-sync/ffi/go2rust_demo/index.md)
   - [Rust调用Go生成的动态链接库-入门demo](3-exec-sync/ffi/rust2go_demo/index.md)
-  - [介绍The libc crate](3-exec-sync/ffi/libc_crate/index.md)
-  - [介绍The cc create](3-exec-sync/ffi/cc_crate/index.md)
+  - [在rust中使用c语言 - libc crate](3-exec-sync/ffi/libc_crate/index.md)
+  - [介绍cc crate](3-exec-sync/ffi/cc_crate/index.md)
+  - [解析rust代码为抽象语法树 - syn crate](3-exec-sync/ffi/crate_syc/index.md)
+  - [介绍quote crate](3-exec-sync/ffi/quote_crate/index.md)
+  - [介绍cbindgen crate](3-exec-sync/ffi/cbindgen_crate/index.md)
 
 ### 异步执行流
 - [future与executor工作原理]
