@@ -16,6 +16,12 @@ fn main() {
     let mut output = String::from_utf8(output).expect("Unable to convert to string");
     let mut go_content = format!(
         "package main\n\n/*\n{output}*/\nimport \"C\"\nimport (\n\"unsafe\"\n\"runtime\"\n)\n");
+    go_content.push_str("func main() {}\n");
 
     std::fs::write(&dest, go_content).expect("Unable to write file");
+    std::process::Command::new("go")
+                .arg("fmt")
+                .arg(&dest)
+                .status()
+                .unwrap();
 }

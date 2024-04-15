@@ -29,7 +29,5 @@ void trebuchet_delete(struct Trebuchet *treb);
 void trebuchet_fire(struct Trebuchet *treb, Ammo ammo, struct Target target);
 */
 import "C"
-import (
-"unsafe"
-"runtime"
-)
+
+func main() {}

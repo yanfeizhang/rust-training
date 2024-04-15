@@ -43,11 +43,13 @@
   - [创建线程传递数据并等待](3-exec-sync/thread/demo.md)
   - [使用多线程实现生产者与消费者](3-exec-sync/thread/consumer.md)
   - [多线程之间访问共享变量](3-exec-sync/thread/mutex.md)
+- 宏
+  - [声明宏的定义与使用，以及try、?错误处理](3-exec-sync/macro/index.md)
 - Rust和Go跨语言互调
   - [Go调用Rust生成的动态链接库-入门demo](3-exec-sync/ffi/go2rust_demo/index.md)
   - [Rust调用Go生成的动态链接库-入门demo](3-exec-sync/ffi/rust2go_demo/index.md)
   - [在rust中使用c语言 - libc crate](3-exec-sync/ffi/crate_libc/index.md)
-  - [介绍cc crate](3-exec-sync/ffi/crate_cc/index.md)
+  - [在rust中自动构建编译C代码 - cc crate](3-exec-sync/ffi/crate_cc/index.md)
   - [解析rust代码为抽象语法树 - syn crate](3-exec-sync/ffi/crate_syn/index.md)
   - [生成rust代码 - quote crate](3-exec-sync/ffi/crate_quote/index.md)
   - [基于rust代码生成C代码 - cbindgen crate](3-exec-sync/ffi/crate_cbindgen/index.md)

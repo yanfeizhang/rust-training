@@ -25,3 +25,18 @@ unsafe extern "C" fn trebuchet_delete(treb: *mut Trebuchet) { ... }
 unsafe extern "C" fn trebuchet_fire(treb: *mut Trebuchet,
                                     ammo: Ammo,
                                     target: Target) { ... }
+
+#[repr(C)]
+pub struct MyRequest {
+    pub name: String,
+    pub age: u8,
+}
+
+#[repr(C)]
+pub struct MyResponse {
+    pub pass: bool,
+}
+
+pub trait ApiCall {
+    fn check(req: &MyRequest) -> MyResponse;
+}

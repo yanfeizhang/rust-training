@@ -1,0 +1,2 @@
+使用cbindgen可以将rust代码转换成C代码
+
