@@ -73,3 +73,7 @@
 - [单线程简单HTTP服务器](4-network/basic/simple-http-server.md)
 - [基于线程池的HTTP服务器](4-network/basic/multi-thread-server.md)
 - [基于异步的HTTP服务器](4-network/basic/async-http-server.md)
+
+## 参考资料
+- [《Rust程序设计语言》](https://www.rustwiki.org.cn/zh-CN/book/title-page.html)
+- [《Rust中的异步编程》](https://huangjj27.github.io/async-book/index.html)
